@@ -1,0 +1,88 @@
+.header{
+    text-align: center;
+}
+.container{
+    display: flex;
+    place-content: center;
+}
+.systemL{
+    margin-top: 5%;
+}
+h1{
+    text-align: center;
+    color: rgb(184, 6, 6); 
+    font: xxx-large ; 
+    font-size: 25px;
+}
+label{
+    font-size: 20px; /* Kích thước chữ */
+    color: rgb(184, 6, 6) ;
+    font: Tahoma ;
+
+}
+.m-t-10px{
+    margin-top: 10px;
+}
+input{
+    width: 500px; 
+    height: 30px; 
+    font-size: 16px; 
+    border-radius: 5px;
+}
+#btnLogin{
+    margin-left:5px ;
+    width: 509px;
+    height: 40px;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 5px;
+}
+.aptechSoftech{
+    display: block;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    background-color: #17a2b8; 
+    color: white;
+    border-radius: 5px;
+    margin-left: 20%;
+    cursor: pointer;
+}
+
+.Copyright{
+    display: flex;
+    justify-content: center;
+    height: 20px;
+}
+.Author{
+    display: flex;
+    justify-content: center;
+    height: 20px;
+}
+/* reponstive */
+@media (max-width: 500px) {
+    /* Kích thước màn hình tối thiểu 480px */
+    .header{
+        width: 100%;
+
+    }
+    .container{
+        display: block;
+    }
+    .m-t-10px{
+        margin-top: 20px;
+    }
+    #btnLogin{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .aptechSoftech{
+        margin: 10px  ;
+    }
+
+}
